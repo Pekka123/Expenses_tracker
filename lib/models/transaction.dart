@@ -4,6 +4,7 @@ class Transaction {
   double itemPrice;
 
   DateTime itemDate;
+  String id;
 
-  Transaction({this.itemName, this.itemPrice, this.itemDate});
+  Transaction({this.id, this.itemName, this.itemPrice, this.itemDate});
 }
